@@ -1,0 +1,464 @@
+<!doctype html>
+<!--
+  Página da MS Tradução Simultânea, versão 1 (rascunho para revisão).
+
+  Antes de publicar:
+  1. WhatsApp: os botões usam o número +55 11 96361-6665. Se o WhatsApp for outro,
+     troque "5511963616665" em todo o arquivo (Localizar e substituir).
+  2. Fotos (opcional): crie uma pasta "fotos" ao lado deste arquivo com
+       fotos/visa-university.jpg   (evento Visa University)
+       fotos/033-rooftop.jpg       (evento no 033 Rooftop)
+     Sem as fotos, os cartões mostram um fundo azul com o nome do local.
+  3. Número de eventos: quando tiver, ative o bloco "NÚMERO DE EVENTOS" (procure por esse nome).
+  4. Logo: o símbolo do topo é provisório; troque pelo arquivo original do logo.
+  5. Depois de publicar no domínio, adicione a imagem de compartilhamento (og:image) indicada abaixo.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MS Tradução Simultânea | Equipamentos e operação para eventos em SP</title>
+<meta name="description" content="Tradução simultânea para congressos e eventos corporativos em São Paulo, no Brasil e no exterior: cabines, receptores, técnicos e recepcionistas. Indicamos intérpretes parceiros. Orçamento em até 24h.">
+<meta name="theme-color" content="#0b1f2e">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="MS Tradução Simultânea">
+<meta property="og:description" content="Operação técnica completa de tradução simultânea para congressos e eventos corporativos. Orçamento em até 24h.">
+<!-- Imagem de compartilhamento: depois de publicar, adicione
+     <meta property="og:image" content="https://SEU-DOMINIO/fotos/compartilhar.jpg"> -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1f2e'/%3E%3Cg fill='%232ec4b0'%3E%3Crect x='5' y='13' width='3' height='6' rx='1.5'/%3E%3Crect x='10' y='9' width='3' height='14' rx='1.5'/%3E%3Crect x='15' y='12' width='3' height='8' rx='1.5'/%3E%3Crect x='20' y='7' width='3' height='18' rx='1.5'/%3E%3Crect x='25' y='12' width='3' height='8' rx='1.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MS Tradução Simultânea",
+  "description": "Operação técnica de tradução simultânea para congressos e eventos corporativos: cabines, receptores, técnicos e recepcionistas.",
+  "telephone": "+55-11-96361-6665",
+  "address": {"@type": "PostalAddress", "addressLocality": "São Paulo", "addressRegion": "SP", "addressCountry": "BR"},
+  "areaServed": "BR",
+  "sameAs": ["https://www.instagram.com/mstraducaosimultanea/"]
+}
+</script>
+<style>
+  :root {
+    --navy-950: #071621;
+    --navy-900: #0b1f2e;
+    --navy-800: #10293b;
+    --teal-400: #2ec4b0;
+    --teal-700: #0d7a6c;
+    --cyan-400: #38b6e0;
+    --ink: #0f1d28;
+    --ink-2: #44535f;
+    --paper: #f5f7f8;
+    --line: #dfe6ea;
+    --radius: 14px;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; font-family: var(--sans); font-size: 17px; line-height: 1.6; color: var(--ink); background: var(--paper); }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+  a:focus-visible, summary:focus-visible { outline: 3px solid var(--cyan-400); outline-offset: 3px; border-radius: 8px; }
+  .container { width: min(1120px, 100% - 32px); margin-inline: auto; }
+  section { scroll-margin-top: 72px; }
+
+  /* Topo */
+  .site-header { position: sticky; top: 0; z-index: 50; background: rgba(11, 31, 46, .94); backdrop-filter: saturate(140%) blur(10px); -webkit-backdrop-filter: saturate(140%) blur(10px); border-bottom: 1px solid rgba(255, 255, 255, .08); }
+  .site-header .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
+  .brand svg { width: 30px; height: 26px; flex: none; }
+  .brand-name { font-weight: 700; font-size: 1.02rem; line-height: 1.1; }
+  .brand-name small { display: block; font-weight: 500; font-size: .72rem; color: #a9bccb; letter-spacing: .02em; }
+  .nav { display: none; gap: 26px; }
+  .nav a { color: #c9d6df; text-decoration: none; font-size: .92rem; font-weight: 500; }
+  .nav a:hover { color: #fff; }
+  .header-cta .short { display: none; }
+  @media (max-width: 379px) { .header-cta .long { display: none; } .header-cta .short { display: inline; } }
+  @media (min-width: 980px) { .nav { display: flex; } }
+
+  /* Botões */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 22px; border-radius: 999px; font-weight: 600; font-size: 1rem; line-height: 1.2; text-decoration: none; transition: transform .15s ease, border-color .15s ease; }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn-primary { background: linear-gradient(135deg, var(--teal-400), var(--cyan-400)); color: var(--navy-950); box-shadow: 0 8px 24px -10px rgba(46, 196, 176, .7); }
+  .btn-primary:hover { transform: translateY(-1px); }
+  .btn-ghost { color: #fff; border: 1px solid rgba(255, 255, 255, .3); }
+  .btn-ghost:hover { border-color: #fff; }
+  .btn-dark { background: var(--navy-900); color: #fff; }
+  .btn-dark:hover { transform: translateY(-1px); }
+  .btn-sm { padding: 10px 16px; font-size: .9rem; }
+
+  /* Abertura */
+  .hero { background: radial-gradient(1100px 560px at 90% 0%, rgba(56, 182, 224, .18), transparent 60%), radial-gradient(900px 500px at 0% 100%, rgba(46, 196, 176, .14), transparent 60%), var(--navy-900); color: #fff; padding: 64px 0 72px; overflow: hidden; }
+  .hero .container { display: grid; gap: 44px; align-items: center; }
+  @media (min-width: 960px) { .hero { padding: 96px 0 104px; } .hero .container { grid-template-columns: 1.1fr .9fr; gap: 56px; } }
+  .eyebrow { font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--teal-400); margin: 0; }
+  .hero h1 { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(2.3rem, 6vw, 3.9rem); line-height: 1.08; letter-spacing: -.01em; margin: .35em 0 .45em; }
+  .lead { font-size: clamp(1.05rem, 2.2vw, 1.2rem); color: #c9d6df; max-width: 34em; margin: 0 0 32px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 28px 0 0; padding: 0; list-style: none; font-size: .9rem; color: #93a9b8; }
+  .hero-meta li::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--teal-400); margin-right: 8px; vertical-align: middle; }
+  .hero-art { border-radius: 24px; background: linear-gradient(180deg, rgba(255, 255, 255, .07), rgba(255, 255, 255, .02)); border: 1px solid rgba(255, 255, 255, .1); padding: 28px 24px 24px; }
+  .wave { display: flex; align-items: center; justify-content: space-between; gap: 4px; height: 150px; }
+  @media (min-width: 960px) { .wave { height: 200px; } }
+  .wave span { flex: 1; max-width: 8px; border-radius: 4px; background: linear-gradient(180deg, var(--cyan-400), var(--teal-400)); height: calc(var(--h) * 100%); transform-origin: center; animation: pulse 2.6s ease-in-out infinite; animation-delay: calc(var(--i) * -90ms); }
+  @keyframes pulse { 0%, 100% { transform: scaleY(.6); } 50% { transform: scaleY(1); } }
+  .channels { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; padding: 0; list-style: none; }
+  .channels li { font-size: .82rem; font-weight: 500; color: #d8e4ea; background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .12); padding: 6px 12px; border-radius: 999px; }
+  .channels b { color: var(--teal-400); margin-right: 6px; }
+  .art-caption { font-size: .82rem; color: #8ea4b3; margin: 12px 0 0; }
+
+  /* Faixa de destaques */
+  .strip { background: var(--navy-800); color: #fff; }
+  .strip .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .strip-item { padding: 22px 0; border-top: 1px solid rgba(255, 255, 255, .08); }
+  .strip-item:first-child { border-top: 0; }
+  .strip-item strong { display: block; font-size: 1.05rem; }
+  .strip-item span { color: #a9bccb; font-size: .92rem; }
+  @media (min-width: 760px) {
+    .strip-item { padding: 28px 24px; border-top: 0; border-left: 1px solid rgba(255, 255, 255, .08); }
+    .strip-item:first-child { border-left: 0; padding-left: 0; }
+  }
+
+  /* Seções */
+  .section { padding: 72px 0; }
+  .section.alt { background: #fff; }
+  @media (min-width: 960px) { .section { padding: 104px 0; } }
+  .label { font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--teal-700); margin: 0; }
+  .section h2 { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 1.15; letter-spacing: -.005em; color: var(--navy-900); margin: .35em 0 .5em; max-width: 21em; }
+  .intro { color: var(--ink-2); font-size: 1.08rem; max-width: 40em; margin: 0 0 40px; }
+  .section h2 + .steps, .section h2 + .cases, .section h2 + .faq { margin-top: 32px; }
+
+  /* Serviços */
+  .cards { display: grid; gap: 16px; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .cards { grid-template-columns: repeat(2, 1fr); } .card-wide { grid-column: span 2; } }
+  @media (min-width: 1000px) { .cards { grid-template-columns: repeat(3, 1fr); } }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+  .card h3 { margin: 16px 0 6px; font-size: 1.08rem; color: var(--navy-900); }
+  .card p { margin: 0; color: var(--ink-2); font-size: .97rem; }
+  .icon { width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; background: linear-gradient(135deg, rgba(46, 196, 176, .16), rgba(56, 182, 224, .16)); color: var(--teal-700); }
+  .icon svg { width: 24px; height: 24px; }
+  .card-accent { background: var(--navy-900); border-color: var(--navy-900); }
+  .card-accent h3 { color: #fff; }
+  .card-accent p { color: #c9d6df; }
+  .card-accent .icon { background: rgba(46, 196, 176, .16); color: var(--teal-400); }
+  .badge { display: inline-block; vertical-align: middle; margin-left: 8px; font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--navy-950); background: var(--teal-400); padding: 3px 8px; border-radius: 6px; }
+
+  /* Como funciona */
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; counter-reset: step; }
+  @media (min-width: 640px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1000px) { .steps { grid-template-columns: repeat(5, 1fr); gap: 18px; } }
+  .steps li { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 20px; counter-increment: step; }
+  .steps li::before { content: counter(step); display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--navy-900); color: var(--teal-400); font-weight: 700; font-size: .95rem; margin-bottom: 14px; }
+  .steps h3 { margin: 0 0 6px; font-size: 1rem; color: var(--navy-900); }
+  .steps p { margin: 0; color: var(--ink-2); font-size: .94rem; }
+
+  /* Eventos */
+  .cases { display: grid; gap: 20px; grid-template-columns: 1fr; }
+  @media (min-width: 760px) { .cases { grid-template-columns: repeat(2, 1fr); } }
+  .case { background: #fff; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+  .case-media { position: relative; aspect-ratio: 16 / 10; display: flex; align-items: flex-end; padding: 18px; background: radial-gradient(520px 260px at 85% 0%, rgba(56, 182, 224, .38), transparent 60%), radial-gradient(420px 240px at 0% 100%, rgba(46, 196, 176, .25), transparent 60%), linear-gradient(135deg, var(--navy-800), var(--navy-950)); }
+  .case-media::before { content: ""; position: absolute; left: 12%; right: 12%; top: 16%; bottom: 32%; background: repeating-linear-gradient(90deg, rgba(56, 182, 224, .5) 0 5px, transparent 5px 13px); -webkit-mask: radial-gradient(ellipse 50% 50% at 50% 50%, #000 97%, transparent 100%); mask: radial-gradient(ellipse 50% 50% at 50% 50%, #000 97%, transparent 100%); opacity: .55; }
+  .case-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .place { position: relative; color: #fff; font-weight: 600; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; background: rgba(7, 22, 33, .6); padding: 6px 10px; border-radius: 8px; }
+  .case-body { padding: 22px 24px 26px; }
+  .case-body h3 { margin: 0 0 6px; font-size: 1.15rem; color: var(--navy-900); }
+  .case-body p { margin: 0; color: var(--ink-2); }
+  .more { display: inline-block; margin-top: 28px; font-weight: 600; color: var(--teal-700); text-decoration: none; }
+  .more:hover { text-decoration: underline; }
+
+  /* Intérpretes */
+  .split { display: grid; gap: 32px; align-items: center; }
+  @media (min-width: 900px) { .split { grid-template-columns: 1fr 1fr; gap: 56px; } }
+  .split p:not(.label) { color: var(--ink-2); font-size: 1.05rem; margin: 0 0 16px; max-width: 34em; }
+  .split .btn { margin-top: 12px; }
+  .panel { background: var(--navy-900); color: #fff; border-radius: 20px; padding: 30px 28px; }
+  .panel h3 { margin: 0 0 18px; font-size: 1.1rem; }
+  .panel ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; counter-reset: item; }
+  .panel li { display: flex; gap: 14px; color: #d3dfe6; counter-increment: item; }
+  .panel li::before { content: counter(item); flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; border: 1px solid rgba(46, 196, 176, .6); color: var(--teal-400); font-size: .8rem; font-weight: 700; margin-top: 1px; }
+
+  /* Dúvidas */
+  .faq { max-width: 780px; }
+  .faq details { border-bottom: 1px solid var(--line); }
+  .faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 0; font-weight: 600; font-size: 1.03rem; color: var(--navy-900); }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; flex: none; font-weight: 400; font-size: 1.5rem; line-height: 1; color: var(--teal-700); transition: transform .2s ease; }
+  .faq details[open] summary::after { transform: rotate(45deg); }
+  .faq details p { margin: 0 0 20px; color: var(--ink-2); max-width: 40em; }
+
+  /* Chamada final */
+  .cta { background: radial-gradient(800px 400px at 100% 0%, rgba(56, 182, 224, .22), transparent 60%), var(--navy-900); color: #fff; }
+  .cta .container { padding: 76px 0; }
+  .cta h2 { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: clamp(1.9rem, 4.2vw, 2.8rem); line-height: 1.12; margin: 0 0 .4em; }
+  .cta p { color: #c9d6df; font-size: 1.08rem; max-width: 36em; margin: 0 0 28px; }
+  .cta .alt-contact { margin: 22px 0 0; font-size: .95rem; color: #93a9b8; }
+  .cta .alt-contact a { color: #fff; }
+
+  /* Rodapé */
+  .site-footer { background: var(--navy-950); color: #8ea4b3; font-size: .9rem; }
+  .site-footer .container { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 24px; padding: 28px 0; }
+  .site-footer nav { display: flex; gap: 20px; }
+  .site-footer a { color: #c9d6df; text-decoration: none; }
+  .site-footer a:hover { color: #fff; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .wave span { animation: none; }
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="#inicio" aria-label="MS Tradução Simultânea, início">
+      <!-- Símbolo provisório: troque pelo logo original -->
+      <svg viewBox="0 0 30 26" aria-hidden="true">
+        <defs><linearGradient id="g-brand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38b6e0"/><stop offset="1" stop-color="#2ec4b0"/></linearGradient></defs>
+        <g fill="url(#g-brand)">
+          <rect x="0" y="9" width="3" height="8" rx="1.5"/>
+          <rect x="5" y="4" width="3" height="18" rx="1.5"/>
+          <rect x="10" y="0" width="3" height="26" rx="1.5"/>
+          <rect x="15" y="7" width="3" height="12" rx="1.5"/>
+          <rect x="20" y="0" width="3" height="26" rx="1.5"/>
+          <rect x="25" y="5" width="3" height="16" rx="1.5"/>
+        </g>
+      </svg>
+      <span class="brand-name">MS <small>Tradução Simultânea</small></span>
+    </a>
+    <nav class="nav" aria-label="Seções">
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#interpretes">Intérpretes</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="https://wa.me/5511963616665?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MS%20e%20gostaria%20de%20um%20or%C3%A7amento." aria-label="Pedir orçamento pelo WhatsApp">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+      <span class="long">Pedir orçamento</span><span class="short">Orçamento</span>
+    </a>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="container">
+      <div>
+        <p class="eyebrow">Tradução simultânea para congressos e eventos corporativos</p>
+        <h1>A tradução começa antes da primeira palavra.</h1>
+        <p class="lead">A MS cuida de toda a operação técnica do seu evento: cabines, receptores, técnicos e recepcionistas. Se você precisar de intérpretes, indicamos parceiros.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/5511963616665?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MS%20e%20gostaria%20de%20um%20or%C3%A7amento.">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+            Pedir orçamento pelo WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#como-funciona">Como funciona</a>
+        </div>
+        <ul class="hero-meta">
+          <li>Orçamento em até 24h</li>
+          <li>Base em São Paulo</li>
+          <li>Brasil e exterior</li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="wave"></div>
+        <ul class="channels">
+          <li><b>1</b>Português</li>
+          <li><b>2</b>Inglês</li>
+          <li><b>3</b>Espanhol</li>
+        </ul>
+        <p class="art-caption">Cada participante escolhe o canal do idioma no receptor.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="container">
+      <div class="strip-item"><strong>Orçamento em até 24h</strong><span>Mande os dados do evento e receba a proposta em até um dia.</span></div>
+      <div class="strip-item"><strong>De ponta a ponta</strong><span>Do primeiro teste de som à devolução do último receptor.</span></div>
+      <div class="strip-item"><strong>Brasil e exterior</strong><span>Base em São Paulo, com equipe onde o seu evento acontecer.</span></div>
+      <!-- NÚMERO DE EVENTOS (desativado). Para ativar, copie a linha abaixo para fora deste comentário e troque o X pelo número.
+      <div class="strip-item"><strong>+X eventos realizados</strong><span>Congressos e eventos corporativos.</span></div>
+      -->
+    </div>
+  </div>
+
+  <section class="section" id="servicos">
+    <div class="container">
+      <p class="label">O que fazemos</p>
+      <h2>Toda a parte técnica da tradução simultânea, com um só fornecedor</h2>
+      <p class="intro">Você cuida do conteúdo do evento. A MS garante que cada participante ouça tudo no idioma certo, do começo ao fim.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 11h18"/><path d="M8 15.5h8"/></svg></div>
+          <h3>Cabines</h3>
+          <p>Cabines para os intérpretes, montadas e testadas antes da abertura do evento.</p>
+        </article>
+        <article class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></div>
+          <h3>Receptores e fones</h3>
+          <p>Cada participante escolhe o canal do idioma e acompanha a tradução em tempo real.</p>
+        </article>
+        <article class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3v18M12 3v18M18 3v18"/><circle cx="6" cy="9" r="2.2" fill="currentColor"/><circle cx="12" cy="15" r="2.2" fill="currentColor"/><circle cx="18" cy="7" r="2.2" fill="currentColor"/></svg></div>
+          <h3>Técnicos</h3>
+          <p>Montagem, testes e operação do som durante todo o evento.</p>
+        </article>
+        <article class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg></div>
+          <h3>Recepcionistas</h3>
+          <p>Entrega dos receptores na entrada e recolhimento no encerramento.</p>
+        </article>
+        <article class="card card-accent card-wide">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H8l-3 3v-3a2 2 0 0 1-2-2z"/><path d="M16 9h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2v3l-3-3h-4a2 2 0 0 1-2-2v-1"/></svg></div>
+          <h3>Intérpretes parceiros <span class="badge">Indicação</span></h3>
+          <p>A interpretação fica com intérpretes parceiros que indicamos para os idiomas do seu evento. Nossa equipe técnica se alinha com eles antes da abertura.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="como-funciona">
+    <div class="container">
+      <p class="label">Como funciona</p>
+      <h2>Do pedido à devolução do último receptor</h2>
+      <ol class="steps">
+        <li><h3>Você conta sobre o evento</h3><p>Data e horários, local, número de participantes e idiomas.</p></li>
+        <li><h3>Orçamento em até 24h</h3><p>Uma proposta pensada para o tamanho e o formato do seu evento.</p></li>
+        <li><h3>Planejamento</h3><p>Definimos equipamento e equipe e, se precisar, indicamos intérpretes.</p></li>
+        <li><h3>Dia do evento</h3><p>Montagem, testes, entrega dos receptores e técnicos do início ao fim.</p></li>
+        <li><h3>Encerramento</h3><p>Recolhimento dos receptores e desmontagem, sem trabalho para você.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="eventos">
+    <div class="container">
+      <p class="label">Eventos</p>
+      <h2>Alguns eventos que a MS já operou</h2>
+      <div class="cases">
+        <article class="case">
+          <div class="case-media">
+            <img src="fotos/visa-university.jpg" alt="Evento Visa University no SP Corporate Towers" loading="lazy" decoding="async" onerror="this.remove()">
+            <span class="place">SP Corporate Towers</span>
+          </div>
+          <div class="case-body">
+            <h3>Visa University</h3>
+            <p>Operação técnica de tradução simultânea no SP Corporate Towers, em São Paulo.</p>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-media">
+            <img src="fotos/033-rooftop.jpg" alt="Recepcionistas da MS no 033 Rooftop" loading="lazy" decoding="async" onerror="this.remove()">
+            <span class="place">033 Rooftop</span>
+          </div>
+          <div class="case-body">
+            <h3>Evento no 033 Rooftop</h3>
+            <p>Equipe técnica e recepcionistas na entrega e no recolhimento dos receptores, em São Paulo.</p>
+          </div>
+        </article>
+      </div>
+      <a class="more" href="https://www.instagram.com/mstraducaosimultanea/" target="_blank" rel="noopener">Veja mais eventos e depoimentos de clientes no Instagram <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section class="section alt" id="interpretes">
+    <div class="container split">
+      <div>
+        <p class="label">Intérpretes</p>
+        <h2>Precisa de intérpretes? A MS indica.</h2>
+        <p>A MS é especialista na operação técnica. Para a interpretação, indicamos intérpretes parceiros nos idiomas do seu evento.</p>
+        <p>Assim você não precisa procurar sozinho, e a cabine começa o evento alinhada com a técnica.</p>
+        <a class="btn btn-dark" href="https://wa.me/5511963616665?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MS%20e%20gostaria%20de%20indica%C3%A7%C3%A3o%20de%20int%C3%A9rpretes.">Pedir indicação de intérpretes</a>
+      </div>
+      <div class="panel">
+        <h3>Como funciona a indicação</h3>
+        <ol>
+          <li>Você informa os idiomas e a programação do evento.</li>
+          <li>Indicamos intérpretes parceiros para cada idioma.</li>
+          <li>Nossa equipe técnica se alinha com eles antes da abertura.</li>
+          <li>Já tem intérpretes? Trabalhamos com eles do mesmo jeito.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="duvidas">
+    <div class="container">
+      <p class="label">Dúvidas</p>
+      <h2>Perguntas frequentes</h2>
+      <div class="faq">
+        <details>
+          <summary>A MS fornece os intérpretes?</summary>
+          <p>A MS cuida da operação técnica. Para a interpretação, indicamos intérpretes parceiros nos idiomas do seu evento. Se você já tiver intérpretes, nossa equipe trabalha com eles.</p>
+        </details>
+        <details>
+          <summary>O que preciso informar para receber o orçamento?</summary>
+          <p>Data e horários, cidade e local, número de participantes, idiomas e se você já tem intérpretes. Com isso, o orçamento sai em até 24h.</p>
+        </details>
+        <details>
+          <summary>Vocês atendem fora de São Paulo?</summary>
+          <p>Sim. A base da MS é em São Paulo, e atendemos eventos em todo o Brasil e no exterior.</p>
+        </details>
+        <details>
+          <summary>Quem entrega e recolhe os receptores?</summary>
+          <p>Nossas recepcionistas entregam os receptores na entrada e recolhem no encerramento do evento.</p>
+        </details>
+        <details>
+          <summary>Com quanto tempo de antecedência devo contratar?</summary>
+          <p>Quanto antes, melhor, principalmente nas datas mais disputadas do calendário de eventos. Mesmo para eventos próximos, vale consultar.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contato">
+    <div class="container">
+      <h2>Conte sobre o seu evento</h2>
+      <p>Mande data, local, número de participantes e idiomas pelo WhatsApp. O orçamento chega em até 24h.</p>
+      <a class="btn btn-primary" href="https://wa.me/5511963616665?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MS%20e%20gostaria%20de%20um%20or%C3%A7amento.">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"/></svg>
+        Pedir orçamento pelo WhatsApp
+      </a>
+      <p class="alt-contact">Prefere o Instagram? Fale com a gente em <a href="https://www.instagram.com/mstraducaosimultanea/" target="_blank" rel="noopener">@mstraducaosimultanea</a>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>MS Tradução Simultânea · São Paulo, SP · Brasil e exterior</span>
+    <nav aria-label="Contatos">
+      <a href="https://www.instagram.com/mstraducaosimultanea/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/5511963616665?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20MS%20e%20gostaria%20de%20um%20or%C3%A7amento.">WhatsApp</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // Desenha a onda sonora da abertura (alturas fixas, sem sorteio).
+  (function () {
+    var wave = document.querySelector('.wave');
+    if (!wave) return;
+    var n = window.matchMedia('(min-width: 600px)').matches ? 44 : 30;
+    var html = '';
+    for (var i = 0; i < n; i++) {
+      var x = i / (n - 1);
+      var envelope = Math.sin(Math.PI * x);
+      var detail = 0.55 + 0.45 * Math.abs(Math.sin(i * 1.7) * Math.cos(i * 0.6));
+      var h = 0.16 + 0.84 * envelope * detail;
+      html += '<span style="--h:' + h.toFixed(3) + ';--i:' + i + '"></span>';
+    }
+    wave.innerHTML = html;
+  })();
+</script>
+</body>
+</html>
